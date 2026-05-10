@@ -1,0 +1,16 @@
+<h1>Новости</h1>
+
+<hr style="height: 3px; background-color:lightskyblue;">
+
+{% for news in news_list %}
+
+    <div>
+        <h2>{{ news.title }}</h2>
+        <p>{{ news.created_at }}</p>
+        <p>{{ news.content }}</p>
+        {% if news.image %}
+            <img src="{{ news.image.url }}" width="200">
+        {% endif %}
+    </div>
+
+{% endfor %}

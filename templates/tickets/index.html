@@ -1,0 +1,71 @@
+<h1>Билеты и промокоды</h1>
+<hr>
+<h2>Стоимость</h2>
+<p>Будний день — 20 BYN</p>
+<p>Выходной — 30 BYN</p>
+<p>Кормление животных — +10 BYN</p>
+<p>Активные часы — +15 BYN</p>
+
+<hr>
+
+<h2>Промокоды</h2>
+
+{% if promocodes %}
+
+    {% for promocode in promocodes %}
+
+        <div>
+
+            <h3>
+                {{ promocode.code }}
+            </h3>
+
+            <p>
+                Скидка:
+                {{ promocode.discount_percent }}%
+            </p>
+
+            <p>
+                Статус:
+
+                {% if promocode.active %}
+                    Активен
+                {% else %}
+                    Неактивен
+                {% endif %}
+
+            </p>
+
+        </div>
+
+        <hr>
+
+    {% endfor %}
+
+{% else %}
+    <p>Промокодов нет</p>
+{% endif %}
+
+{% if user.is_authenticated %}
+
+    {% if user.profile.role == 'visitor' %}
+
+        <a href="/tickets/create/">Купить билет</a>
+        <br><br>
+        <a href="/tickets/my/">
+            Мои покупки
+        </a>
+
+    {% endif %}
+
+{% else %}
+
+    <p>
+        Чтобы купить билет, необходимо войти в аккаунт
+    </p>
+
+    <a href="/accounts/login/">
+        Войти
+    </a>
+
+{% endif %}

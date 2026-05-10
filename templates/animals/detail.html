@@ -1,0 +1,44 @@
+<h1>{{ animal.name }}</h1>
+
+{% if animal.image %}
+    <img
+        src="{{ animal.image.url }}"
+        width="300"
+        alt="{{ animal.name }}"
+    >
+{% endif %}
+
+<hr>
+<p>
+    <strong>Вид:</strong>{{ animal.species }}
+</p>
+<p>
+    <strong>Семейство:</strong>{{ animal.family }}
+</p>
+
+<p>
+    <strong>Возраст:</strong>{{ animal.age }}
+</p>
+
+<p>
+    <strong>Пол:</strong>{{ animal.gender }}
+</p>
+
+<p>
+    <strong>Страна:</strong>{{ animal.country }}
+</p>
+
+<p>
+    <strong>Дата поступления:</strong>{{ animal.arrival_date|date:"d/m/Y" }}
+</p>
+
+<p>
+    <strong>Вольер:</strong>{{ animal.enclosure }}
+</p>
+
+<p>
+    <strong>Смотритель:</strong>{{ animal.employee }}</p>
+<hr>
+
+<h2>Описание</h2>
+<p>{{ animal.description }}</p>

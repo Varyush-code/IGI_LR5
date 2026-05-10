@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zoo</title>
+</head>
+
+<body>
+
+    <nav>
+        <p>Текущая дата: {{ current_date|date:"d/m/Y" }}</p>
+        <a href="/about/">О компании</a>
+        <a href="/animals/">Животные</a>
+        <a href="/news/">Новости</a>
+        <a href="/contacts/">Контакты</a>
+        <a href="/reviews/">Отзывы</a>
+        <a href="/openings/">Вакансии</a>
+        {% if user.is_authenticated %}
+            {% if user.profile.role == 'employee' or user.profile.role == 'admin' %}
+                <a href="/feeding/">Кормление</a>
+                <a href="/enclosures/">Помещения</a>
+                <a href="/statistic/">Статистика</a>
+            {% endif %}
+            {% if user.profile.role == 'visitor' %}
+                <a href="/tickets/">Билеты</a>
+            {% endif %}
+        {% endif %}
+        
+        <hr style="height: 3px; background-color:lightskyblue;">
+
+        {% if user.is_authenticated %}
+            <p>Пользователь: {{ user.username }}</p>
+            <p>Роль: {{ user.profile.role }}</p>
+            <form action="/accounts/logout/" method="post">
+                {% csrf_token %}
+                <button type="submit">Выйти</button>
+            </form>
+
+        {% else %}
+            <a href="/accounts/login/">Войти</a>
+            <br><br>
+            <a href="/accounts/register/">Регистрация</a>
+        {% endif %}
+
+        <hr style="height: 3px; background-color:lightskyblue;">
+
+        {% if latest_news %}
+
+            <h2>Последняя новость</h2>
+            <h3>{{ latest_news.title }} {{ latest_news.created_at }}</h3>
+            {% if latest_news.image %}
+                <img src="{{ latest_news.image.url }}" width="200">
+            {% endif %}
+            <p>{{ latest_news.content|truncatewords:30 }}</p>
+
+        {% endif %}
+        <hr style="height: 3px; background-color:lightskyblue;">
+
+        <h2>Цены</h2>
+        <ul>
+            <li>Будний день — 20 BYN</li>
+            <li>Выходной — 30 BYN</li>
+            <li>Кормление животных — +10 BYN</li>
+            <li>Активные часы — +15 BYN</li>
+        </ul>
+        <hr style="height: 3px; background-color:lightskyblue;">
+
+    </nav>
+
+    <h2>Факт о кошках</h2>
+
+    {% if cat_fact %}
+        <p>{{ cat_fact }}</p>
+    {% else %}
+        <p>Факт не загружен</p>
+    {% endif %}
+
+    {% block content %}
+    {% endblock %}
+
+    <hr style="height: 3px; background-color:lightskyblue;">
+    <h2>Шутка дня</h2>
+
+    {% if joke %}
+        <p>{{ joke.setup }}</p>
+        <p>{{ joke.punchline }}</p>
+    {% else %}
+        <p>Факт не загружен</p>
+    {% endif %}
+
+</body>
+</html>

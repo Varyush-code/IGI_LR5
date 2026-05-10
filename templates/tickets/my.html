@@ -1,0 +1,47 @@
+<h1>Мои билеты</h1>
+
+<hr>
+
+{% if tickets %}
+
+    {% for ticket in tickets %}
+
+        <div>
+
+            <h2>Билет №{{ ticket.id }}</h2>
+            <p>Тип дня: {{ ticket.get_day_type_display }}</p>
+            <p>Кормление животных:
+                {% if ticket.feeding_show %}
+                    Да
+                {% else %}
+                    Нет
+                {% endif %}
+            </p>
+
+            <p>Активные часы:
+                {% if ticket.active_hours %}
+                    Да
+                {% else %}
+                    Нет
+                {% endif %}
+            </p>
+
+            <p>
+                Итоговая цена:
+                {{ ticket.final_price }} BYN
+            </p>
+
+            <p>
+                Дата покупки:
+                {{ ticket.created_at }}
+            </p>
+
+        </div>
+
+        <hr>
+
+    {% endfor %}
+
+{% else %}
+    <p>У вас пока нет билетов</p>
+{% endif %}

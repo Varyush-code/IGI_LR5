@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Статистика</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Статистика зоопарка</h1>
+    <form method="get">
+
+        <h2>Фильтрация</h2>
+        <input
+            type="text"
+            name="search"
+            placeholder="Поиск животного"
+        >
+        <input
+            type="text"
+            name="family"
+            placeholder="Семейство"
+        >
+
+        <button type="submit">Применить</button>
+
+    </form>
+    <hr>
+    <h2>Посетители</h2>
+
+    <p>Средний возраст: {{ average_age }}</p>
+    <p>Медиана возраста: {{ median_age }}</p>
+
+    <ul>
+        {% for visitor in visitors %}
+            <li>{{ visitor.user.username }} - {{ visitor.age }}</li>
+        {% empty %}
+            <li>Посетителей нет</li>
+        {% endfor %}
+    </ul>
+
+    <hr>
+
+    <h2>Животные</h2>
+    <p>Всего животных: {{ animals_count }}</p>
+
+    <ul>
+        {% for animal in animals %}
+            <li> {{ animal.name }} - {{ animal.family }}</li>
+        {% empty %}
+            <li>Животных нет</li>
+        {% endfor %}
+    </ul>
+
+    <hr>
+
+    <h2>Потребление корма</h2>
+    <p>Всего корма: {{ food_total }}</p>
+
+    <ul>
+        {% for feeding in feedings %}
+            <li>{{ feeding.animal.name }}-{{ feeding.food.food_type }} -{{ feeding.amount }} кг</li>
+        {% empty %}
+            <li>Данных нет</li>
+        {% endfor %}
+    </ul>
+
+    <hr>
+
+    <h2>Продажа билетов</h2>
+
+    <p>
+        Всего билетов:
+        {{ tickets_count }}
+    </p>
+
+    <p>
+        Средняя цена:
+        {{ average_ticket_price }}
+    </p>
+
+    <p>
+        Медиана цены:
+        {{ median_ticket_price }}
+    </p>
+
+    <hr>
+
+    <h2> Потребление корма</h2>
+
+    <canvas id="foodChart"></canvas>
+
+    <script>
+        const foodCtx = document.getElementById('foodChart');
+        new Chart(foodCtx, {
+            type: 'pie',
+            data: {
+                labels: {{ food_labels|safe }},
+                datasets: [{
+                    label: 'Потребление корма',
+                    data: {{ food_amounts|safe }},
+
+                }]
+            }
+        });
+    </script>
+
+</body>
+</html>

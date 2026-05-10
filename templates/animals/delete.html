@@ -1,0 +1,8 @@
+<h1>Удалить животное?</h1>
+<p>{{ animal.name }}</p>
+
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Да, удалить</button>
+</form>
+

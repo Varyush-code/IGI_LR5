@@ -1,0 +1,12 @@
+<h1>Помещения</h1>
+
+{% for e in enclosures %}
+
+    <div>
+        <h3>{{ e.number }}: {{ e.name }}</h3>
+        <p>Вместимость: {{ e.capacity }}</p>
+        <p>{{ e.description }}</p>
+    </div>
+    <hr>
+
+{% endfor %}

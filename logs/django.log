@@ -1,0 +1,251 @@
+[INFO] 2026-05-10 19:23:26,885 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:23:33,313 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:23:33,824 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:26:50,564 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:26:51,356 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:26:59,475 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:00,218 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:01,580 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:02,183 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:04,585 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:05,261 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:18,780 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:19,508 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:23,251 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:23,901 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:25,505 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:26,121 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:27,698 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:28,291 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:30,953 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:31,579 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:36,376 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:37,067 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:42,890 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:43,502 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:48,310 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:48,953 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:50,267 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:50,892 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:52,225 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:52,825 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:54,196 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:54,771 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:27:57,137 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:27:57,780 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:28:00,151 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:28:00,722 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:28:04,115 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:28:04,781 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:28:08,167 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:28:08,738 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:28:10,087 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:28:10,687 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:28:12,049 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:28:12,631 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:28:20,505 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:28:21,227 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:28:40,822 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:28:41,847 apps.core.views: Загрузка прошла успешно
+[WARNING] 2026-05-10 19:28:45,455 django.request: Not Found: /registration/register/
+[INFO] 2026-05-10 19:32:07,237 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:32:07,922 django.utils.autoreload: Watching for file changes with StatReloader
+[WARNING] 2026-05-10 19:32:31,528 django.request: Not Found: /registration/login/
+[WARNING] 2026-05-10 19:32:33,867 django.request: Not Found: /registration/login/
+[WARNING] 2026-05-10 19:32:36,492 django.request: Not Found: /registration/login/
+[WARNING] 2026-05-10 19:32:41,653 django.request: Not Found: /registration/login/
+[WARNING] 2026-05-10 19:32:46,399 django.request: Not Found: /registration/register/
+[WARNING] 2026-05-10 19:32:51,732 django.request: Not Found: /registration/login/
+[WARNING] 2026-05-10 19:32:57,636 django.request: Not Found: /registration/login/
+[INFO] 2026-05-10 19:36:22,016 django.utils.autoreload: D:\University\IGI\LR5\apps\core\urls.py changed, reloading.
+[INFO] 2026-05-10 19:36:22,718 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:36:25,441 django.utils.autoreload: D:\University\IGI\LR5\apps\core\urls.py changed, reloading.
+[INFO] 2026-05-10 19:36:26,113 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:36:27,667 django.utils.autoreload: D:\University\IGI\LR5\apps\core\urls.py changed, reloading.
+[INFO] 2026-05-10 19:36:28,236 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:36:31,675 django.utils.autoreload: D:\University\IGI\LR5\apps\core\urls.py changed, reloading.
+[INFO] 2026-05-10 19:36:32,350 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:36:33,720 django.utils.autoreload: D:\University\IGI\LR5\apps\core\urls.py changed, reloading.
+[INFO] 2026-05-10 19:36:34,311 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:36:36,714 django.utils.autoreload: D:\University\IGI\LR5\apps\core\urls.py changed, reloading.
+[INFO] 2026-05-10 19:36:37,315 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:36:53,648 django.utils.autoreload: D:\University\IGI\LR5\apps\core\urls.py changed, reloading.
+[INFO] 2026-05-10 19:36:54,383 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:36:55,730 django.utils.autoreload: D:\University\IGI\LR5\apps\core\urls.py changed, reloading.
+[INFO] 2026-05-10 19:36:56,403 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:38:15,666 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:38:16,430 django.utils.autoreload: Watching for file changes with StatReloader
+[WARNING] 2026-05-10 19:38:17,636 django.request: Not Found: /registration/login/
+[INFO] 2026-05-10 19:38:34,435 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:38:35,255 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:42:01,292 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:42:01,831 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:43:52,829 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:43:53,340 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:46:57,299 django.utils.autoreload: D:\University\IGI\LR5\apps\news\views.py changed, reloading.
+[INFO] 2026-05-10 19:46:58,451 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:47:03,600 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:47:04,147 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:47:09,862 django.utils.autoreload: D:\University\IGI\LR5\apps\news\views.py changed, reloading.
+[INFO] 2026-05-10 19:47:10,354 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:47:16,983 django.utils.autoreload: D:\University\IGI\LR5\apps\news\views.py changed, reloading.
+[INFO] 2026-05-10 19:47:17,494 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:47:29,244 django.utils.autoreload: D:\University\IGI\LR5\apps\news\views.py changed, reloading.
+[INFO] 2026-05-10 19:47:29,804 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:47:34,422 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:47:34,959 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:47:38,496 django.utils.autoreload: D:\University\IGI\LR5\apps\core\views.py changed, reloading.
+[INFO] 2026-05-10 19:47:39,030 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:48:02,508 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:48:03,069 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:48:06,098 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:48:06,629 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:49:22,905 django.utils.autoreload: D:\University\IGI\LR5\apps\reviews\models.py changed, reloading.
+[INFO] 2026-05-10 19:49:23,446 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:49:24,927 django.utils.autoreload: D:\University\IGI\LR5\apps\reviews\models.py changed, reloading.
+[INFO] 2026-05-10 19:49:25,561 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:49:31,188 django.utils.autoreload: D:\University\IGI\LR5\apps\reviews\views.py changed, reloading.
+[INFO] 2026-05-10 19:49:31,718 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:49:48,989 django.utils.autoreload: D:\University\IGI\LR5\apps\openings\views.py changed, reloading.
+[INFO] 2026-05-10 19:49:49,607 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:49:57,296 django.utils.autoreload: D:\University\IGI\LR5\apps\openings\views.py changed, reloading.
+[INFO] 2026-05-10 19:49:57,875 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:50:05,636 django.utils.autoreload: D:\University\IGI\LR5\apps\openings\views.py changed, reloading.
+[INFO] 2026-05-10 19:50:06,205 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 19:50:25,988 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:50:26,598 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:51:43,625 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:51:44,131 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:52:08,476 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:52:09,029 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:58:06,426 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 19:58:07,021 apps.core.views: Загрузка прошла успешно
+[WARNING] 2026-05-10 20:10:22,156 django.request: Not Found: /openings/1/update/
+[WARNING] 2026-05-10 20:10:22,165 django.request: Not Found: /openings/1/delete/
+[INFO] 2026-05-10 20:14:52,515 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:15:02,401 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:15:02,994 django.utils.autoreload: Watching for file changes with StatReloader
+[WARNING] 2026-05-10 20:16:02,703 django.request: Not Found: /animals/2/detail/
+[INFO] 2026-05-10 20:16:15,086 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:16:15,556 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:17:06,292 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 20:17:06,768 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 20:19:03,825 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:19:04,296 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:21:53,339 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:21:53,802 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:21:58,272 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:21:58,764 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:22:00,252 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:22:00,749 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:22:02,117 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:22:02,658 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:22:47,267 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 20:22:47,802 apps.core.views: Загрузка прошла успешно
+[WARNING] 2026-05-10 20:24:51,612 django.request: Not Found: /openings/2/update/
+[WARNING] 2026-05-10 20:24:58,052 django.request: Not Found: /openings/2/delete/
+[INFO] 2026-05-10 20:27:00,175 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:27:00,643 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:27:05,245 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:27:05,689 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:27:09,015 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:27:09,482 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:27:11,988 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:27:12,450 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:28:38,647 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\views.py changed, reloading.
+[INFO] 2026-05-10 20:28:39,208 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:28:45,869 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\views.py changed, reloading.
+[INFO] 2026-05-10 20:28:46,311 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:28:48,812 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\views.py changed, reloading.
+[INFO] 2026-05-10 20:28:49,278 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:28:51,753 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\views.py changed, reloading.
+[INFO] 2026-05-10 20:28:52,255 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:29:11,265 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:29:11,782 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:29:13,242 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\urls.py changed, reloading.
+[INFO] 2026-05-10 20:29:13,679 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 20:29:38,039 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-10 20:29:38,592 apps.core.views: Загрузка прошла успешно
+[WARNING] 2026-05-10 20:30:59,963 django.request: Not Found: /openings/1/update/
+[WARNING] 2026-05-10 20:30:59,970 django.request: Not Found: /openings/1/delete/
+[ERROR] 2026-05-10 20:35:01,610 django.request: Internal Server Error: /animals/1/delete/
+Traceback (most recent call last):
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 145, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\edit.py", line 258, in post
+    return self.form_valid(form)
+           ~~~~~~~~~~~~~~~^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\edit.py", line 263, in form_valid
+    success_url = self.get_success_url()
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\edit.py", line 235, in get_success_url
+    if self.success_url:
+       ^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\utils\functional.py", line 187, in __wrapper__
+    result = func(*self._args, **self._kw)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\urls\resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'list' not found. 'list' is not a valid view function or pattern name.
+[ERROR] 2026-05-10 20:36:11,719 django.request: Internal Server Error: /animals/1/delete/
+Traceback (most recent call last):
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 145, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\edit.py", line 258, in post
+    return self.form_valid(form)
+           ~~~~~~~~~~~~~~~^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\edit.py", line 263, in form_valid
+    success_url = self.get_success_url()
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\edit.py", line 235, in get_success_url
+    if self.success_url:
+       ^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\utils\functional.py", line 187, in __wrapper__
+    result = func(*self._args, **self._kw)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\urls\resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'list' not found. 'list' is not a valid view function or pattern name.
+[INFO] 2026-05-10 20:36:26,343 django.utils.autoreload: Watching for file changes with StatReloader
+[ERROR] 2026-05-10 20:39:01,640 django.request: Internal Server Error: /animals/1/delete/
+Traceback (most recent call last):
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 145, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\edit.py", line 258, in post
+    return self.form_valid(form)
+           ~~~~~~~~~~~~~~~^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\edit.py", line 263, in form_valid
+    success_url = self.get_success_url()
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\edit.py", line 235, in get_success_url
+    if self.success_url:
+       ^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\utils\functional.py", line 187, in __wrapper__
+    result = func(*self._args, **self._kw)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\urls\resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'list' not found. 'list' is not a valid view function or pattern name.
+[INFO] 2026-05-10 21:03:50,134 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-10 22:27:30,172 django.utils.autoreload: Watching for file changes with StatReloader

@@ -1,0 +1,17 @@
+<h1>Покупка билета</h1>
+
+<hr>
+<h2>Стоимость</h2>
+<p>Будний день — 20 BYN</p>
+<p>Выходной — 30 BYN</p>
+<p>Кормление животных — +10 BYN</p>
+<p>Активные часы — +15 BYN</p>
+
+<hr>
+<form method="post">
+
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Купить билет</button>
+
+</form>

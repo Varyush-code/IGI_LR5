@@ -1,0 +1,10 @@
+Django
+djangorestframework
+Pillow
+psycopg2-binary
+python-dotenv
+pytest
+pytest-django
+coverage
+matplotlib
+requests

@@ -1,0 +1,8 @@
+<h1>Удалить вакансию?</h1>
+<p>{{ o.name }}</p>
+
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Да, удалить</button>
+</form>
+

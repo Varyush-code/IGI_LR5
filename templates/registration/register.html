@@ -1,0 +1,31 @@
+<h1>Регистрация</h1>
+
+<form method="post">
+
+    {% csrf_token %}
+
+    {{ form.non_field_errors }}
+
+    {% for field in form %}
+
+        <div>
+
+            <p>{{ field.label }}</p>
+
+            {{ field }}
+
+            <div style="color:red">
+                {{ field.errors }}
+            </div>
+
+        </div>
+
+        <br>
+
+    {% endfor %}
+
+    <button type="submit">
+        Зарегистрироваться
+    </button>
+
+</form>

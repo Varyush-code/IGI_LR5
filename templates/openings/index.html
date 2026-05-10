@@ -1,0 +1,21 @@
+<h1>Вакансии </h1>
+
+{% if user.profile.role == 'admin' %}
+    <a href="/openings/create/">Добавить вакансию</a>
+{% endif %}
+
+<hr style="height: 3px; background-color:lightskyblue;">
+
+{% for o in openings %}
+    <div>
+        <h2>{{ o.name }}</h2>
+        <p>{{ o.description }}</p>
+        
+        {% if user.profile.role == 'admin' %}
+            <a href="{{ o.id }}/update/">Изменить</a>
+            <a href="{{ o.id }}/delete">Удалить</a>
+        {% endif %}
+    </div>
+{% empty %}
+    <p>Animals not found</p>
+{% endfor %}

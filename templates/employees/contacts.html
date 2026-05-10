@@ -1,0 +1,26 @@
+<h1>Контакты</h1>
+<h2>Наши сотрудники</h2>
+
+{% if user.profile.role == 'admin' %}
+    <a href="/contacts/create/">Добавить сотрудника</a>
+{% endif %}
+
+{% if contacts %}
+    {% for employee in contacts %}
+        <div>
+            <h3>{{ employee.name }}</h3>
+            <p>Телефон: {{ employee.phone }}</p>
+            <p>{{ employee.description }}</p>
+            {% if employee.photo %}
+                <img src="{{ employee.photo.url }}" width="100">
+            {% endif %}
+
+            {% if user.profile.role == 'admin' %}
+                <a href="{{ employee.id }}/update/">Изменить</a>
+                <a href="{{ employee.id }}/delete">Удалить</a>
+            {% endif %}
+        </div>
+    {% endfor %}
+{% else %}
+    <p>Сотрудники не добавлены</p>
+{% endif %}

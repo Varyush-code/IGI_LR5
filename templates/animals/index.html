@@ -1,0 +1,38 @@
+<h1>Животные</h1>
+
+{% if user.profile.role == 'admin' %}
+    <a href="{% url 'animals:create' %}">Добавить животное</a>
+{% endif %}
+
+<hr style="height: 3px; background-color:lightskyblue;">
+
+{% for animal in animals %}
+    <div>
+        <h2>{{ animal.name }}</h2>
+        <p>Семейство: {{ animal.species }}</p>
+        <p>Возраст: {{ animal.age }}</p>
+        <p>Страна: {{ animal.country }}</p>
+        <p>Дата поступления: {{ animal.arrival_date }}</p>
+        <p>Смотритель: {{ animal.employee.name }}</p>
+        <p>Вольер: {{ animal.enclosure }}</p>
+
+        {% if animal.image %}
+            <img
+                src="{{ animal.image.url }}"
+                width="200"
+            >
+        {% endif %}
+
+        {% if user.is_authenticated and user.profile.role == 'employee' and animal.employee.profile == user.profile %}
+            <span style="background-color: lightblue">Ваше животное</span>
+        {% endif %}
+
+        {% if user.profile.role == 'admin' %}
+            <a href="{% url 'animals:detail' animal.pk %}">Подробнее</a>
+            <a href="{% url 'animals:update' animal.pk %}">Изменить</a>
+            <a href="{% url 'animals:delete' animal.pk %}">Удалить</a>
+        {% endif %}
+    </div>
+{% empty %}
+    <p>Animals not found</p>
+{% endfor %}

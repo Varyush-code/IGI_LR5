@@ -1,0 +1,12 @@
+<h1>Кормления</h1>
+
+{% for f in feedings %}
+
+    <div>
+        <h3>{{ f.animal.name }}</h3>
+        <p>Сотрудник: {{ f.animal.employee }}</p>
+        <p>Корм: {{ f.food }} Количество: {{ f.amount }} кг</p>
+    </div>
+    <hr>
+
+{% endfor %}
