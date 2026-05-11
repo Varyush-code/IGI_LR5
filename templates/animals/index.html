@@ -13,7 +13,11 @@
         <p>Возраст: {{ animal.age }}</p>
         <p>Страна: {{ animal.country }}</p>
         <p>Дата поступления: {{ animal.arrival_date }}</p>
-        <p>Смотритель: {{ animal.employee.name }}</p>
+        {% for employee in animal.employee.all %}
+            <p>{{ employee.name }}</p>
+        {% empty %}
+            <p>Нет сотрудников</p>
+        {% endfor %}
         <p>Вольер: {{ animal.enclosure }}</p>
 
         {% if animal.image %}
@@ -23,8 +27,12 @@
             >
         {% endif %}
 
-        {% if user.is_authenticated and user.profile.role == 'employee' and animal.employee.profile == user.profile %}
-            <span style="background-color: lightblue">Ваше животное</span>
+        {% if user.is_authenticated and user.profile.role == 'employee' %}
+            {% for employee in animal.employees.all %}
+                {% if employee.profile == user.profile %}
+                    <span style="background-color: lightblue">Ваше животное</span>
+                {% endif %}
+            {% endfor %}
         {% endif %}
 
         {% if user.profile.role == 'admin' %}

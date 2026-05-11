@@ -71,13 +71,11 @@ class Animal(models.Model):
         verbose_name='Вольер'
     )
 
-    employee = models.ForeignKey(
+    employee = models.ManyToManyField(
         Employee,
-        on_delete=models.SET_NULL,
-        null=True,
         blank=True,
         related_name='animals',
-        verbose_name='Смотритель'
+        verbose_name='Смотрители'
     )
 
     def __str__(self):

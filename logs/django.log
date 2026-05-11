@@ -385,3 +385,9 @@ django.db.utils.IntegrityError: NOT NULL constraint failed: tickets_ticket.visit
 [WARNING] 2026-05-11 09:45:23,337 django.request: Not Found: /favicon.ico
 [INFO] 2026-05-11 09:46:15,726 apps.core.views: Загрузка прошла успешно
 [INFO] 2026-05-11 09:46:16,035 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 10:29:50,215 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 10:29:51,739 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 13:49:53,726 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 13:50:04,300 apps.core.views: �������� ������ �������
+[INFO] 2026-05-11 13:50:05,195 apps.core.views: �������� ������ �������
+[INFO] 2026-05-11 14:09:49,640 django.utils.autoreload: D:\University\IGI\LR5\zoo\settings.py changed, reloading.
