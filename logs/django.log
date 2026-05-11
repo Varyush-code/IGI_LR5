@@ -380,3 +380,8 @@ django.db.utils.IntegrityError: NOT NULL constraint failed: tickets_ticket.visit
 [INFO] 2026-05-11 12:00:39,609 django.utils.autoreload: Watching for file changes with StatReloader
 [INFO] 2026-05-11 12:00:59,071 apps.core.views: �������� ������ �������
 [INFO] 2026-05-11 12:01:00,281 apps.core.views: �������� ������ �������
+[INFO] 2026-05-11 09:45:22,755 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 09:45:23,093 apps.core.views: Загрузка прошла успешно
+[WARNING] 2026-05-11 09:45:23,337 django.request: Not Found: /favicon.ico
+[INFO] 2026-05-11 09:46:15,726 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 09:46:16,035 apps.core.views: Загрузка прошла успешно
