@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import Openings
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
-from django.views.generic import (ListView, DetailView, CreateView, UpdateView, DeleteView)
+from django.views.generic import (ListView, CreateView, UpdateView, DeleteView)
 
 class OListView(LoginRequiredMixin, ListView):
     model = Openings
