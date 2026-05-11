@@ -65,9 +65,7 @@ class StatisticsView(LoginRequiredMixin, TemplateView):
             'arrival_date'
         )
         if arrival_date:
-            animals = animals.filter(
-                arrival_date=arrival_date
-            )
+            animals = animals.filter(arrival_date=arrival_date)
         context['animals'] = animals
         context['animals_count'] = animals.count()
         feedings = Feeding.objects.all()
@@ -100,10 +98,12 @@ class StatisticsView(LoginRequiredMixin, TemplateView):
             for ticket in tickets
             if ticket.final_price is not None
         ]
+
         context['median_ticket_price'] = (
             median(prices)
             if prices else 0
         )
+
         family_stats = (
             Animal.objects
             .values('family')
