@@ -884,6 +884,123 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2026-05-13T17:05:37.181Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "6",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2026-05-13T17:05:41.387Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "7",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2026-05-13T17:05:43.691Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "8",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2026-05-13T17:08:36.484Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2026-05-13T17:08:41.531Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2026-05-13T17:08:46.694Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2026-05-13T17:08:51.899Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2026-05-13T17:08:56.416Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "5",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2026-05-13T17:09:01.211Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "V",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth date\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -1947,7 +2064,7 @@
   "pk": 1,
   "fields": {
     "user": 1,
-    "birth_date": null,
+    "birth_date": "2000-02-02",
     "role": "admin"
   }
 },
@@ -1956,7 +2073,7 @@
   "pk": 2,
   "fields": {
     "user": 2,
-    "birth_date": null,
+    "birth_date": "2000-02-02",
     "role": "employee"
   }
 },
@@ -1965,7 +2082,7 @@
   "pk": 3,
   "fields": {
     "user": 3,
-    "birth_date": null,
+    "birth_date": "1986-06-07",
     "role": "employee"
   }
 },
@@ -1974,7 +2091,7 @@
   "pk": 4,
   "fields": {
     "user": 4,
-    "birth_date": null,
+    "birth_date": "2000-02-02",
     "role": "employee"
   }
 },
@@ -1983,7 +2100,7 @@
   "pk": 5,
   "fields": {
     "user": 5,
-    "birth_date": null,
+    "birth_date": "1999-09-09",
     "role": "employee"
   }
 },
@@ -1992,7 +2109,7 @@
   "pk": 6,
   "fields": {
     "user": 6,
-    "birth_date": null,
+    "birth_date": "1999-09-09",
     "role": "employee"
   }
 },

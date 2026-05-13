@@ -1204,3 +1204,5 @@ django.db.utils.OperationalError: no such column: accounts_profile.birth_date
 [INFO] 2026-05-13 18:04:19,639 django.utils.autoreload: Watching for file changes with StatReloader
 [INFO] 2026-05-13 19:56:49,217 apps.core.views: Загрузка прошла успешно
 [INFO] 2026-05-13 19:56:50,056 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-13 20:05:13,424 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-13 20:08:26,557 django.utils.autoreload: Watching for file changes with StatReloader
