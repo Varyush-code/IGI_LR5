@@ -14,7 +14,7 @@ class Profile(models.Model):
         on_delete=models.CASCADE
     )
 
-    age = models.DateField(
+    birth_date = models.DateField(
         null=True, 
         blank=True
     )

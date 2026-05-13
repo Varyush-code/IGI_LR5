@@ -46,9 +46,9 @@ class StatisticsView(LoginRequiredMixin, TemplateView):
         ages = []
 
         for visitor in visitors:
-            if visitor.age:
-                age = (today.year - visitor.age.year)
-                if (today.month, today.day) < (visitor.age.month, visitor.age.day):
+            if visitor.birth_date:
+                age = (today.year - visitor.birth_date.year)
+                if (today.month, today.day) < (visitor.birth_date.month, visitor.birth_date.day):
                     age -= 1
 
                 ages.append(age)

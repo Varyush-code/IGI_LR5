@@ -5,7 +5,7 @@ from datetime import date
 
 class RegisterForm(UserCreationForm):
 
-    age = forms.DateField(label='дата рождения', widget = forms.DateInput(attrs={"type": "data"}))
+    birth_date = forms.DateField(label='дата рождения', widget = forms.DateInput(attrs={"type": "data"}))
 
     class Meta:
         model = User
@@ -13,13 +13,13 @@ class RegisterForm(UserCreationForm):
         fields = [
             'username',
             'email',
-            'age',
+            'birth_date',
             'password1',
             'password2'
         ]
 
     def clean_age(self):
-        db = self.cleaned_data["age"]
+        db = self.cleaned_data["birth_date"]
         today = date.today()
 
         age = today.year - db.year - (

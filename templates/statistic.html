@@ -34,14 +34,6 @@
     <p>Средний возраст: {{ average_age }}</p>
     <p>Медиана возраста: {{ median_age }}</p>
 
-    <ul>
-        {% for visitor in visitors %}
-            <li>{{ visitor.user.username }} - {{ visitor.age }}</li>
-        {% empty %}
-            <li>Посетителей нет</li>
-        {% endfor %}
-    </ul>
-
     <hr>
 
     <h2>Животные</h2>
