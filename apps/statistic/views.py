@@ -34,8 +34,8 @@ class StatisticsView(LoginRequiredMixin, TemplateView):
             allowed_sort = [
                 'user__username',
                 '-user__username',
-                'age',
-                '-age',
+                'birth_date',
+                '-birth_date',
             ]
             if sort in allowed_sort:
                 visitors = visitors.order_by(sort)

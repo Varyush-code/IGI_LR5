@@ -12,7 +12,7 @@ class RegisterView(CreateView):
     def form_valid(self, form):
         response = super().form_valid(form)
         profile = self.object.profile
-        profile.agebirth_date = form.cleaned_data['birth_date']
+        profile.birth_date = form.cleaned_data['birth_date']
         profile.full_clean()
         profile.save()
         return response

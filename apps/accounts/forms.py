@@ -5,7 +5,7 @@ from datetime import date
 
 class RegisterForm(UserCreationForm):
 
-    birth_date = forms.DateField(label='дата рождения', widget = forms.DateInput(attrs={"type": "data"}))
+    birth_date = forms.DateField(label='дата рождения', widget = forms.DateInput(attrs={"type": "date"}))
 
     class Meta:
         model = User
@@ -18,7 +18,7 @@ class RegisterForm(UserCreationForm):
             'password2'
         ]
 
-    def clean_age(self):
+    def clean_birth_date(self):
         db = self.cleaned_data["birth_date"]
         today = date.today()
 
@@ -27,4 +27,4 @@ class RegisterForm(UserCreationForm):
         )
         if age < 18:
             raise forms.ValidationError("Только 18+")
-        return age
+        return db
