@@ -806,6 +806,84 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2026-05-13T13:13:49.034Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "11",
+    "object_repr": "543",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2026-05-13T13:13:54.981Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "10",
+    "object_repr": "33",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2026-05-13T13:14:36.170Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "6",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2026-05-13T13:14:48.482Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "7",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2026-05-13T13:15:00.539Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "8",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2026-05-13T16:56:43.640Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Тортилла - черепаха - grass",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Amount\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -1422,7 +1500,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$1200000$MorTLl6TDda6pXRRJH30Y9$mLxjawv70/XvnHSXBOCxGFFqO85LAQta/4IW2rLjtsA=",
-    "last_login": "2026-05-11T08:56:57.032Z",
+    "last_login": "2026-05-12T12:16:45.950Z",
     "is_superuser": true,
     "username": "V",
     "first_name": "",
@@ -1717,10 +1795,10 @@
 },
 {
   "model": "sessions.session",
-  "pk": "reo7d8ga5qrckn9rv8i9qe3s3eb5card",
+  "pk": "hyxsy4neqve81su70b57epzqbt7co390",
   "fields": {
-    "session_data": ".eJxVjEsOgjAUAO_y1qbB9tEPS_ecgbxPK6iBhMLKeHdDwkK3M5N5w0D7Ng57zeswKXRwhcsvY5Jnng-hD5rvi5Fl3taJzZGY01bTL5pft7P9G4xUR-jAM1IItoj1amOrLSWMDZPjNjpxrpTiUFPwXBpkjImLJa-Y0IqqCHy-5oQ4bQ:1wMMRd:UbvQ3dgVfkb9mf-R-iETMZdIN2Nn-uTUWC_fSKSsUYg",
-    "expire_date": "2026-05-25T08:56:57.043Z"
+    "session_data": ".eJxVjEsOgjAUAO_y1qbB9tEPS_ecgbxPK6iBhMLKeHdDwkK3M5N5w0D7Ng57zeswKXRwhcsvY5Jnng-hD5rvi5Fl3taJzZGY01bTL5pft7P9G4xUR-jAM1IItoj1amOrLSWMDZPjNjpxrpTiUFPwXBpkjImLJa-Y0IqqCHy-5oQ4bQ:1wMm2Y:erukrZzOD95qdW8gMzOY7wq6EepCMqG_D2zxAIBWkXE",
+    "expire_date": "2026-05-26T12:16:46.019Z"
   }
 },
 {
@@ -1869,7 +1947,7 @@
   "pk": 1,
   "fields": {
     "user": 1,
-    "age": null,
+    "birth_date": null,
     "role": "admin"
   }
 },
@@ -1878,7 +1956,7 @@
   "pk": 2,
   "fields": {
     "user": 2,
-    "age": 20,
+    "birth_date": null,
     "role": "employee"
   }
 },
@@ -1887,7 +1965,7 @@
   "pk": 3,
   "fields": {
     "user": 3,
-    "age": 33,
+    "birth_date": null,
     "role": "employee"
   }
 },
@@ -1896,7 +1974,7 @@
   "pk": 4,
   "fields": {
     "user": 4,
-    "age": 50,
+    "birth_date": null,
     "role": "employee"
   }
 },
@@ -1905,7 +1983,7 @@
   "pk": 5,
   "fields": {
     "user": 5,
-    "age": 34,
+    "birth_date": null,
     "role": "employee"
   }
 },
@@ -1914,7 +1992,7 @@
   "pk": 6,
   "fields": {
     "user": 6,
-    "age": 41,
+    "birth_date": null,
     "role": "employee"
   }
 },
@@ -1923,7 +2001,7 @@
   "pk": 7,
   "fields": {
     "user": 7,
-    "age": 90,
+    "birth_date": "2000-02-02",
     "role": "visitor"
   }
 },
@@ -1932,7 +2010,7 @@
   "pk": 8,
   "fields": {
     "user": 8,
-    "age": 19,
+    "birth_date": "1986-06-07",
     "role": "visitor"
   }
 },
@@ -1941,7 +2019,7 @@
   "pk": 9,
   "fields": {
     "user": 9,
-    "age": 23,
+    "birth_date": "1999-09-09",
     "role": "visitor"
   }
 },
@@ -2119,7 +2197,7 @@
     "animal": 8,
     "employee": 5,
     "food": 3,
-    "amount": 29,
+    "amount": 10,
     "date": "2026-05-11T05:33:04.960Z"
   }
 },
