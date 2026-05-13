@@ -1,0 +1,2432 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-05-11T05:07:52.472Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-05-11T05:07:57.582Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "1",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-05-11T05:08:05.150Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-05-11T05:08:07.665Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "2",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-05-11T05:08:17.409Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-05-11T05:08:19.847Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "3",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-05-11T05:08:27.937Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-05-11T05:08:30.575Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "4",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-05-11T05:08:40.095Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-05-11T05:08:43.021Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "5",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-05-11T05:08:52.274Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "6",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-05-11T05:08:54.353Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "6",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-05-11T05:09:05.106Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "8",
+    "object_repr": "7",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-05-11T05:09:07.396Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "8",
+    "object_repr": "7",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-05-11T05:09:16.570Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "9",
+    "object_repr": "8",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-05-11T05:09:19.442Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "9",
+    "object_repr": "8",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-05-11T05:09:46.922Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\", \"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-05-11T05:09:54.389Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\", \"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-05-11T05:10:02.958Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\", \"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-05-11T05:10:12.726Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\", \"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-05-11T05:10:22.358Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "5",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\", \"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-05-11T05:11:15.816Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Мария",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-05-11T05:11:51.881Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Иван",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-05-11T05:12:38.283Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Петр",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-05-11T05:13:02.644Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Алена",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-05-11T05:13:26.612Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Анатолий",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-05-11T05:14:08.672Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "волки",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-05-11T05:14:35.148Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "львы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-05-11T05:14:41.388Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "волки",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043c\\u0435\\u0441\\u0442\\u0438\\u043c\\u043e\\u0441\\u0442\\u044c\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-05-11T05:15:58.192Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "капибары",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-05-11T05:16:28.909Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "черепахи",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-05-11T05:17:42.093Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Акалия - волк",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-05-11T05:18:22.307Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Игнат - волк",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-05-11T05:19:13.200Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Петр - волк",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-05-11T05:21:04.218Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Лена - капибара",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-05-11T05:21:10.953Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Лена - капибара",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043c\\u043e\\u0442\\u0440\\u0438\\u0442\\u0435\\u043b\\u044c\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-05-11T05:22:01.562Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Даник - капибара",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-05-11T05:22:37.830Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Муся - лев",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-05-11T05:23:39.348Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Вегас - лев",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-05-11T05:23:52.522Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Вегас - лев",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043e\\u043b\\u044c\\u0435\\u0440\", \"\\u0421\\u043c\\u043e\\u0442\\u0440\\u0438\\u0442\\u0435\\u043b\\u044c\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-05-11T05:25:38.641Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Тортилла - черепаха",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-05-11T05:26:46.147Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Мы открылись",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-05-11T05:27:15.511Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Приглашаем на новоселье",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-05-11T05:27:44.338Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Посетите капибар",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-05-11T05:28:22.504Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "8 - 5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-05-11T05:28:43.228Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "2",
+    "object_repr": "7 - 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-05-11T05:28:57.041Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "123456",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-05-11T05:29:32.673Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "meat",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-05-11T05:29:36.060Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "fish",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-05-11T05:29:39.721Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "grass",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-05-11T05:29:43.257Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "fruit",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-05-11T05:29:47.520Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "vegetables",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-05-11T05:32:23.117Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Акалия - волк - meat",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-05-11T05:32:38.059Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Игнат - волк - meat",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-05-11T05:32:49.264Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Петр - волк - meat",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-05-11T05:33:04.961Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Тортилла - черепаха - grass",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-05-11T05:33:22.608Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Лена - капибара - fruit",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-05-11T05:33:37.864Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Даник - капибара - vegetables",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2026-05-11T05:34:03.157Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "8",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2026-05-11T05:34:10.240Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "7",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2026-05-11T05:34:15.608Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "6",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2026-05-11T09:01:26.375Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Уборщик",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2026-05-13T13:13:49.034Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "11",
+    "object_repr": "543",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2026-05-13T13:13:54.981Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "10",
+    "object_repr": "33",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2026-05-13T13:14:36.170Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "6",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2026-05-13T13:14:48.482Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "7",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2026-05-13T13:15:00.539Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "8",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Age\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2026-05-13T16:56:43.640Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Тортилла - черепаха - grass",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Amount\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2026-05-13T17:05:37.181Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "6",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2026-05-13T17:05:41.387Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "7",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2026-05-13T17:05:43.691Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "8",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2026-05-13T17:08:36.484Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2026-05-13T17:08:41.531Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2026-05-13T17:08:46.694Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2026-05-13T17:08:51.899Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2026-05-13T17:08:56.416Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "5",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2026-05-13T17:09:01.211Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "V",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Birth date\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 3,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 3,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 3,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 3,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 2,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 2,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 2,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 2,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Животное",
+    "content_type": 7,
+    "codename": "add_animal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Животное",
+    "content_type": 7,
+    "codename": "change_animal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Животное",
+    "content_type": 7,
+    "codename": "delete_animal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Животное",
+    "content_type": 7,
+    "codename": "view_animal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add profile",
+    "content_type": 8,
+    "codename": "add_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change profile",
+    "content_type": 8,
+    "codename": "change_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete profile",
+    "content_type": 8,
+    "codename": "delete_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view profile",
+    "content_type": 8,
+    "codename": "view_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Вольер",
+    "content_type": 9,
+    "codename": "add_enclosure"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Вольер",
+    "content_type": 9,
+    "codename": "change_enclosure"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Вольер",
+    "content_type": 9,
+    "codename": "delete_enclosure"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Вольер",
+    "content_type": 9,
+    "codename": "view_enclosure"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add employee",
+    "content_type": 10,
+    "codename": "add_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change employee",
+    "content_type": 10,
+    "codename": "change_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete employee",
+    "content_type": 10,
+    "codename": "delete_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view employee",
+    "content_type": 10,
+    "codename": "view_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add food",
+    "content_type": 12,
+    "codename": "add_food"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change food",
+    "content_type": 12,
+    "codename": "change_food"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete food",
+    "content_type": 12,
+    "codename": "delete_food"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view food",
+    "content_type": 12,
+    "codename": "view_food"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add feeding",
+    "content_type": 11,
+    "codename": "add_feeding"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change feeding",
+    "content_type": 11,
+    "codename": "change_feeding"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete feeding",
+    "content_type": 11,
+    "codename": "delete_feeding"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view feeding",
+    "content_type": 11,
+    "codename": "view_feeding"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add promo code",
+    "content_type": 13,
+    "codename": "add_promocode"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change promo code",
+    "content_type": 13,
+    "codename": "change_promocode"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete promo code",
+    "content_type": 13,
+    "codename": "delete_promocode"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view promo code",
+    "content_type": 13,
+    "codename": "view_promocode"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add ticket",
+    "content_type": 14,
+    "codename": "add_ticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change ticket",
+    "content_type": 14,
+    "codename": "change_ticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete ticket",
+    "content_type": 14,
+    "codename": "delete_ticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view ticket",
+    "content_type": 14,
+    "codename": "view_ticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add Новость",
+    "content_type": 15,
+    "codename": "add_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change Новость",
+    "content_type": 15,
+    "codename": "change_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete Новость",
+    "content_type": 15,
+    "codename": "delete_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view Новость",
+    "content_type": 15,
+    "codename": "view_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add review",
+    "content_type": 16,
+    "codename": "add_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change review",
+    "content_type": 16,
+    "codename": "change_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete review",
+    "content_type": 16,
+    "codename": "delete_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view review",
+    "content_type": 16,
+    "codename": "view_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add openings",
+    "content_type": 17,
+    "codename": "add_openings"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change openings",
+    "content_type": 17,
+    "codename": "change_openings"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete openings",
+    "content_type": 17,
+    "codename": "delete_openings"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view openings",
+    "content_type": 17,
+    "codename": "view_openings"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$MorTLl6TDda6pXRRJH30Y9$mLxjawv70/XvnHSXBOCxGFFqO85LAQta/4IW2rLjtsA=",
+    "last_login": "2026-05-12T12:16:45.950Z",
+    "is_superuser": true,
+    "username": "V",
+    "first_name": "",
+    "last_name": "",
+    "email": "varvaraparpieva@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-11T05:06:43.913Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$GlxBqUPQ1v8fbbjG2tuPDK$ZuexXA3shjIlgBlhkd5TlyMTP2llgWgsM28LUAS6NH4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-11T05:07:51Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$zFEJN6gaGq6DBLf6x40i0z$mxXXIJKMpmLyYpcZXSw38u3+zaeEtrHHmxoa9v5D5lU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "2",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-11T05:08:04Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$0WJiVRhsmsh7x0hDayFnjq$a4idRFQLs7ZX88PiQgvxhsx7xmXIHD9kMAvri+SlC58=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "3",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-11T05:08:16Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$WoQ1FRxW21RoX9Q3AlJrTp$qjIeguP8wX3OSg4XDvhVxXdtugtWPjSfo+pSwXEaUqA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "4",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-11T05:08:27Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$i9S4GtzgPsuuO44QQQTGgp$Kjq/n3gnCfup7sTGnmobWwa0r45pkqUeOpf78Su09Ps=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "5",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-11T05:08:39Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$gOLRsL3WhsHNwbHVFPa0I9$yftiQp09fgDkwiYT5Kiln0XUEsrej8QsMNgU8xNrkYU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "6",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-11T05:08:51Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$Oa1XUOQgMDoSYsd4uHOCig$p/ONytEaJj8kpNgEWBUxi6PX3Uq3Dej1UwVoctxgCNQ=",
+    "last_login": "2026-05-11T05:34:45.060Z",
+    "is_superuser": false,
+    "username": "7",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-11T05:09:04Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$CDyPTvA9U73RCBaYObhOmI$DOt9bk9lZBdMHrbKOimbYDtI++hb+Y3KCNL1fsSBg90=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "8",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-11T05:09:15Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "animals",
+    "model": "animal"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "accounts",
+    "model": "profile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "enclosures",
+    "model": "enclosure"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "employees",
+    "model": "employee"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "feeding",
+    "model": "feeding"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "feeding",
+    "model": "food"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "tickets",
+    "model": "promocode"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "tickets",
+    "model": "ticket"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "news",
+    "model": "news"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "reviews",
+    "model": "review"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "openings",
+    "model": "openings"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hyxsy4neqve81su70b57epzqbt7co390",
+  "fields": {
+    "session_data": ".eJxVjEsOgjAUAO_y1qbB9tEPS_ecgbxPK6iBhMLKeHdDwkK3M5N5w0D7Ng57zeswKXRwhcsvY5Jnng-hD5rvi5Fl3taJzZGY01bTL5pft7P9G4xUR-jAM1IItoj1amOrLSWMDZPjNjpxrpTiUFPwXBpkjImLJa-Y0IqqCHy-5oQ4bQ:1wMm2Y:erukrZzOD95qdW8gMzOY7wq6EepCMqG_D2zxAIBWkXE",
+    "expire_date": "2026-05-26T12:16:46.019Z"
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 1,
+  "fields": {
+    "name": "Акалия",
+    "species": "волк",
+    "family": "псовые",
+    "age": 4,
+    "gender": "female",
+    "country": "Беларусь",
+    "description": "укусит за бочок",
+    "image": "animals/волк3_pTfReSr.jpg",
+    "arrival_date": "2026-05-11",
+    "enclosure": 1,
+    "employee": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 2,
+  "fields": {
+    "name": "Игнат",
+    "species": "волк",
+    "family": "псовые",
+    "age": 2,
+    "gender": "male",
+    "country": "Беларусь",
+    "description": "укусит за два бочка",
+    "image": "animals/волк2_e6TuAEU.jpg",
+    "arrival_date": "2026-05-11",
+    "enclosure": 1,
+    "employee": []
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 3,
+  "fields": {
+    "name": "Петр",
+    "species": "волк",
+    "family": "псовые",
+    "age": 5,
+    "gender": "male",
+    "country": "Беларусь",
+    "description": "у вас почему нет третьего бока",
+    "image": "animals/Screenshot-2025-04-09-at-15_ZbvvlWx.16.18-900x600.png",
+    "arrival_date": "2026-05-11",
+    "enclosure": 1,
+    "employee": []
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 4,
+  "fields": {
+    "name": "Лена",
+    "species": "капибара",
+    "family": "водосвинковые",
+    "age": 3,
+    "gender": "female",
+    "country": "Беларусь",
+    "description": "пошла на корм львам",
+    "image": "animals/1696617346_animals-pibig-info-p-kapibara-s-apelsinom-vkontakte-1.jpg",
+    "arrival_date": "2026-05-11",
+    "enclosure": 2,
+    "employee": []
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 5,
+  "fields": {
+    "name": "Даник",
+    "species": "капибара",
+    "family": "водосвинковые",
+    "age": 5,
+    "gender": "male",
+    "country": "Беларусь",
+    "description": "повторит судьбу Лены но в своем вольере",
+    "image": "animals/загрузка.webp",
+    "arrival_date": "2026-05-11",
+    "enclosure": 3,
+    "employee": []
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 6,
+  "fields": {
+    "name": "Муся",
+    "species": "лев",
+    "family": "кошачьи",
+    "age": 7,
+    "gender": "female",
+    "country": "Беларусь",
+    "description": "НЯМ НЯМ",
+    "image": "animals/муся_W1RbDrv.jpg",
+    "arrival_date": "2026-05-11",
+    "enclosure": 2,
+    "employee": []
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 7,
+  "fields": {
+    "name": "Вегас",
+    "species": "лев",
+    "family": "кошачьи",
+    "age": 14,
+    "gender": "male",
+    "country": "Беларусь",
+    "description": "аэаэаээаэаэаэ",
+    "image": "animals/82093dbdee42d9a512407e7886ef4393_mGP0dII.jpg",
+    "arrival_date": "2026-05-11",
+    "enclosure": 3,
+    "employee": [
+      2
+    ]
+  }
+},
+{
+  "model": "animals.animal",
+  "pk": 8,
+  "fields": {
+    "name": "Тортилла",
+    "species": "черепаха",
+    "family": "рептилии",
+    "age": 200,
+    "gender": "female",
+    "country": "Беларусь",
+    "description": "пресмыкающееся",
+    "image": "animals/bolshaya_suhoputnaya_cherepaha.jpg",
+    "arrival_date": "2026-05-11",
+    "enclosure": 4,
+    "employee": []
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "birth_date": "2000-02-02",
+    "role": "admin"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "birth_date": "2000-02-02",
+    "role": "employee"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "birth_date": "1986-06-07",
+    "role": "employee"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "birth_date": "2000-02-02",
+    "role": "employee"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 5,
+  "fields": {
+    "user": 5,
+    "birth_date": "1999-09-09",
+    "role": "employee"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 6,
+  "fields": {
+    "user": 6,
+    "birth_date": "1999-09-09",
+    "role": "employee"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 7,
+  "fields": {
+    "user": 7,
+    "birth_date": "2000-02-02",
+    "role": "visitor"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 8,
+  "fields": {
+    "user": 8,
+    "birth_date": "1986-06-07",
+    "role": "visitor"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 9,
+  "fields": {
+    "user": 9,
+    "birth_date": "1999-09-09",
+    "role": "visitor"
+  }
+},
+{
+  "model": "enclosures.enclosure",
+  "pk": 1,
+  "fields": {
+    "number": 1,
+    "name": "волки",
+    "enclosure_type": "forest",
+    "capacity": 3,
+    "description": "Хороший комфортный"
+  }
+},
+{
+  "model": "enclosures.enclosure",
+  "pk": 2,
+  "fields": {
+    "number": 2,
+    "name": "львы",
+    "enclosure_type": "savanna",
+    "capacity": 2,
+    "description": "укцуавсмапиртегонкреукца"
+  }
+},
+{
+  "model": "enclosures.enclosure",
+  "pk": 3,
+  "fields": {
+    "number": 3,
+    "name": "капибары",
+    "enclosure_type": "jungle",
+    "capacity": 2,
+    "description": "капибара капибара капибара капибара капибара"
+  }
+},
+{
+  "model": "enclosures.enclosure",
+  "pk": 4,
+  "fields": {
+    "number": 4,
+    "name": "черепахи",
+    "enclosure_type": "aquarium",
+    "capacity": 3,
+    "description": "эвэвэвэвээвв"
+  }
+},
+{
+  "model": "employees.employee",
+  "pk": 1,
+  "fields": {
+    "name": "Мария",
+    "profile": 2,
+    "phone": "+375 (29) 111-11-11",
+    "description": "Хорошо кормит львов (на месте все руки)",
+    "photo": "employees/мария_jR2lXrK.jpg"
+  }
+},
+{
+  "model": "employees.employee",
+  "pk": 2,
+  "fields": {
+    "name": "Иван",
+    "profile": 3,
+    "phone": "+375 (29) 222-22-22",
+    "description": "Мама заставила работать",
+    "photo": "employees/иван_A50EXym.jpg"
+  }
+},
+{
+  "model": "employees.employee",
+  "pk": 3,
+  "fields": {
+    "name": "Петр",
+    "profile": 4,
+    "phone": "+375 (29) 333-33-33",
+    "description": "До этого 15 лет работал на скотобойне",
+    "photo": "employees/анатолий.jpg"
+  }
+},
+{
+  "model": "employees.employee",
+  "pk": 4,
+  "fields": {
+    "name": "Алена",
+    "profile": 5,
+    "phone": "+375 (29) 444-44-44",
+    "description": "ещкере",
+    "photo": "employees/Алена_Y2URpOi.jpg"
+  }
+},
+{
+  "model": "employees.employee",
+  "pk": 5,
+  "fields": {
+    "name": "Анатолий",
+    "profile": 6,
+    "phone": "+375 (29) 444-44-44",
+    "description": "брат Петра",
+    "photo": "employees/петр_eGavHNb.jpg"
+  }
+},
+{
+  "model": "feeding.food",
+  "pk": 1,
+  "fields": {
+    "food_type": "meat"
+  }
+},
+{
+  "model": "feeding.food",
+  "pk": 2,
+  "fields": {
+    "food_type": "fish"
+  }
+},
+{
+  "model": "feeding.food",
+  "pk": 3,
+  "fields": {
+    "food_type": "grass"
+  }
+},
+{
+  "model": "feeding.food",
+  "pk": 4,
+  "fields": {
+    "food_type": "fruit"
+  }
+},
+{
+  "model": "feeding.food",
+  "pk": 5,
+  "fields": {
+    "food_type": "vegetables"
+  }
+},
+{
+  "model": "feeding.feeding",
+  "pk": 1,
+  "fields": {
+    "animal": 1,
+    "employee": 5,
+    "food": 1,
+    "amount": 9,
+    "date": "2026-05-11T05:32:23.116Z"
+  }
+},
+{
+  "model": "feeding.feeding",
+  "pk": 2,
+  "fields": {
+    "animal": 2,
+    "employee": 5,
+    "food": 1,
+    "amount": 11,
+    "date": "2026-05-11T05:32:38.057Z"
+  }
+},
+{
+  "model": "feeding.feeding",
+  "pk": 3,
+  "fields": {
+    "animal": 3,
+    "employee": 5,
+    "food": 1,
+    "amount": 3,
+    "date": "2026-05-11T05:32:49.263Z"
+  }
+},
+{
+  "model": "feeding.feeding",
+  "pk": 4,
+  "fields": {
+    "animal": 8,
+    "employee": 5,
+    "food": 3,
+    "amount": 10,
+    "date": "2026-05-11T05:33:04.960Z"
+  }
+},
+{
+  "model": "feeding.feeding",
+  "pk": 5,
+  "fields": {
+    "animal": 4,
+    "employee": 5,
+    "food": 4,
+    "amount": 3,
+    "date": "2026-05-11T05:33:22.607Z"
+  }
+},
+{
+  "model": "feeding.feeding",
+  "pk": 6,
+  "fields": {
+    "animal": 5,
+    "employee": 5,
+    "food": 5,
+    "amount": 2,
+    "date": "2026-05-11T05:33:37.862Z"
+  }
+},
+{
+  "model": "tickets.ticket",
+  "pk": 1,
+  "fields": {
+    "user": 8,
+    "day_type": "weekend",
+    "feeding_show": true,
+    "active_hours": false,
+    "final_price": "38.00",
+    "created_at": "2026-05-11T05:34:57.272Z"
+  }
+},
+{
+  "model": "tickets.promocode",
+  "pk": 1,
+  "fields": {
+    "code": "123456",
+    "discount_percent": 5,
+    "active": true
+  }
+},
+{
+  "model": "news.news",
+  "pk": 1,
+  "fields": {
+    "title": "Мы открылись",
+    "content": "После 4 сноса БД наш зоопарк наконец то восстановился. Больше до проверки зоопарка его сотрудники ничего сносить ради дебага не будут",
+    "image": "news/Снимок_экрана_2026-05-04_155208_34LUpxd.png",
+    "created_at": "2026-05-11T05:26:46.145Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 2,
+  "fields": {
+    "title": "Приглашаем на новоселье",
+    "content": "Смотрите на мой курсач",
+    "image": "news/Снимок_экрана_2026-04-28_182454_9D8bQj5.png",
+    "created_at": "2026-05-11T05:27:15.510Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 3,
+  "fields": {
+    "title": "Посетите капибар",
+    "content": "Я спать хочу жесть",
+    "image": "news/Снимок_экрана_2025-10-01_201711_r3s0MsQ.png",
+    "created_at": "2026-05-11T05:27:44.336Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 1,
+  "fields": {
+    "user": 9,
+    "text": "Хорошее место, львы прикольно хрустят капибарами",
+    "rating": 5,
+    "created_at": "2026-05-11T05:28:22.502Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 2,
+  "fields": {
+    "user": 8,
+    "text": "Черепаха не разрешает кататься на спине",
+    "rating": 1,
+    "created_at": "2026-05-11T05:28:43.227Z"
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 3,
+  "fields": {
+    "user": 8,
+    "text": "мяу мяу мяу",
+    "rating": 3,
+    "created_at": "2026-05-11T08:56:16.348Z"
+  }
+},
+{
+  "model": "openings.openings",
+  "pk": 1,
+  "fields": {
+    "name": "Уборщик",
+    "description": "График 5/2, 10 рублей на руки"
+  }
+}
+]
