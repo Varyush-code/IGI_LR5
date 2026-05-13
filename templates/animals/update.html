@@ -1,8 +1,9 @@
-<h1>Редактирование животного</h1>
-
-<form method="post" enctype="multipart/form-data">
+<form method="post">
     {% csrf_token %}
-    {{ form.as_p }}
+    <input name="name" value="{{ animal.name }}">
+    <input name="species" value="{{ animal.species }}">
+    <input name="family" value="{{ animal.family }}">
+    <input name="age" value="{{ animal.age }}">
+
     <button type="submit">Сохранить</button>
-    <a href="/animals/">Отмена</a>
 </form>

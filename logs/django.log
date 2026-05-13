@@ -425,3 +425,410 @@ django.db.utils.IntegrityError: NOT NULL constraint failed: tickets_ticket.visit
 [INFO] 2026-05-11 12:48:26,194 apps.core.views: Р—Р°РіСЂСѓР·РєР° РїСЂРѕС€Р»Р° СѓСЃРїРµС€РЅРѕ
 [INFO] 2026-05-11 12:48:32,711 apps.core.views: Р—Р°РіСЂСѓР·РєР° РїСЂРѕС€Р»Р° СѓСЃРїРµС€РЅРѕ
 [INFO] 2026-05-11 12:48:33,131 apps.core.views: Р—Р°РіСЂСѓР·РєР° РїСЂРѕС€Р»Р° СѓСЃРїРµС€РЅРѕ
+[INFO] 2026-05-11 16:33:06,303 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:33:15,196 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 16:33:17,355 apps.core.views: Загрузка прошла успешно
+[ERROR] 2026-05-11 16:33:19,553 django.request: Internal Server Error: /animals/
+Traceback (most recent call last):
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\University\IGI\LR5\apps\animals\views.py", line 8, in index
+    return render(request, "animal/index.html", {"animals": animals})
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: animal/index.html
+[INFO] 2026-05-11 16:33:42,071 django.utils.autoreload: D:\University\IGI\LR5\apps\animals\views.py changed, reloading.
+[INFO] 2026-05-11 16:33:42,844 django.utils.autoreload: Watching for file changes with StatReloader
+[ERROR] 2026-05-11 16:34:25,789 django.request: Internal Server Error: /animals/
+Traceback (most recent call last):
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\University\IGI\LR5\apps\animals\views.py", line 8, in index
+    return render(request, "animals/index.html", {"animals": animals})
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\base.py", line 174, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\base.py", line 166, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\defaulttags.py", line 249, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\defaulttags.py", line 333, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\base.py", line 1091, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\base.py", line 1052, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\template\defaulttags.py", line 511, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\urls\resolvers.py", line 842, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+[INFO] 2026-05-11 16:36:57,805 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\models.py changed, reloading.
+[INFO] 2026-05-11 16:36:58,526 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:37:15,897 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\models.py changed, reloading.
+[INFO] 2026-05-11 16:37:16,523 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:37:19,865 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\models.py changed, reloading.
+[INFO] 2026-05-11 16:37:20,547 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:37:21,836 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\models.py changed, reloading.
+[INFO] 2026-05-11 16:37:22,390 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:37:28,880 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\models.py changed, reloading.
+[INFO] 2026-05-11 16:37:29,511 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:37:40,863 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:37:41,639 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:37:44,110 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:37:44,747 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:04,636 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:05,381 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:07,033 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:07,779 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:09,325 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:10,084 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:12,634 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:13,283 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:25,430 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:26,167 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:30,826 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:31,431 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:34,051 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:34,648 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:38,334 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:38,955 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:40,526 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:41,169 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:42,547 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:43,189 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:47,795 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:48,547 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:50,187 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:50,880 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:52,270 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:52,884 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:38:56,383 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:38:56,974 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:39:24,682 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:39:25,535 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:39:27,166 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:39:27,799 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:39:30,251 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:39:30,895 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:39:34,565 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:39:35,234 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:39:37,722 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:39:38,464 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:39:45,235 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:39:45,852 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:39:58,999 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:39:59,713 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:40:05,443 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:40:06,200 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:40:08,733 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:40:09,466 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:40:11,012 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:40:11,678 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:40:13,131 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:40:13,879 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:40:16,303 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:40:17,074 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:40:35,607 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:40:36,340 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:41:02,341 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:41:11,995 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 16:41:13,222 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 16:41:49,469 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 16:41:51,209 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 16:42:21,196 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:42:21,914 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:43:27,684 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:46:22,224 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:46:23,033 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:46:25,854 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:46:26,517 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:46:34,451 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:46:35,194 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:46:37,808 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:46:38,432 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:46:42,188 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:46:42,933 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:46:45,686 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:46:46,327 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:46:58,975 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:46:59,786 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:47:49,945 django.utils.autoreload: D:\University\IGI\LR5\apps\accounts\forms.py changed, reloading.
+[INFO] 2026-05-11 16:47:50,804 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:48:16,647 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-11 16:48:26,882 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 16:48:28,217 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 16:48:28,933 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-11 16:48:29,917 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-12 15:15:09,082 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:16:09,174 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:16:20,370 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:16:33,150 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-12 15:16:33,604 apps.core.views: Загрузка прошла успешно
+[WARNING] 2026-05-12 15:16:33,764 django.request: Not Found: /favicon.ico
+[INFO] 2026-05-12 15:16:46,794 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-12 15:16:47,614 apps.core.views: Загрузка прошла успешно
+[ERROR] 2026-05-12 15:16:51,564 django.request: Internal Server Error: /statistic/
+Traceback (most recent call last):
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\contrib\auth\mixins.py", line 74, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 145, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 229, in get
+    context = self.get_context_data(**kwargs)
+  File "D:\University\IGI\LR5\apps\statistic\views.py", line 44, in get_context_data
+    visitors.aggregate(
+    ~~~~~~~~~~~~~~~~~~^
+        avg=Avg('age')
+        ^^^^^^^^^^^^^^
+    )['avg']
+    ^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\query.py", line 594, in aggregate
+    return self.query.chain().get_aggregation(self.db, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\query.py", line 638, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1611, in execute_sql
+    sql, params = self.as_sql()
+                  ~~~~~~~~~~~^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 767, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup(
+                                       ~~~~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases or bool(combinator),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 86, in pre_sql_setup
+    self.setup_query(with_col_aliases=with_col_aliases)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 75, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select(
+                                                            ~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 317, in get_select
+    sql, params = self.compile(col)
+                  ~~~~~~~~~~~~^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 576, in compile
+    sql, params = vendor_impl(self, self.connection)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\expressions.py", line 29, in as_sqlite
+    sql, params = self.as_sql(compiler, connection, **extra_context)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\aggregates.py", line 209, in as_sql
+    sql, params = super().as_sql(compiler, connection, **extra_context)
+                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\expressions.py", line 1102, in as_sql
+    connection.ops.check_expression_support(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\backends\sqlite3\operations.py", line 64, in check_expression_support
+    raise NotSupportedError(
+    ...<3 lines>...
+    )
+django.db.utils.NotSupportedError: You cannot use Sum, Avg, StdDev, and Variance aggregations on date/time fields in sqlite3 since date/time is saved as text.
+[ERROR] 2026-05-12 15:17:01,263 django.request: Internal Server Error: /statistic/
+Traceback (most recent call last):
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\contrib\auth\mixins.py", line 74, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 145, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 229, in get
+    context = self.get_context_data(**kwargs)
+  File "D:\University\IGI\LR5\apps\statistic\views.py", line 44, in get_context_data
+    visitors.aggregate(
+    ~~~~~~~~~~~~~~~~~~^
+        avg=Avg('age')
+        ^^^^^^^^^^^^^^
+    )['avg']
+    ^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\query.py", line 594, in aggregate
+    return self.query.chain().get_aggregation(self.db, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\query.py", line 638, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1611, in execute_sql
+    sql, params = self.as_sql()
+                  ~~~~~~~~~~~^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 767, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup(
+                                       ~~~~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases or bool(combinator),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 86, in pre_sql_setup
+    self.setup_query(with_col_aliases=with_col_aliases)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 75, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select(
+                                                            ~~~~~~~~~~~~~~~^
+        with_col_aliases=with_col_aliases,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 317, in get_select
+    sql, params = self.compile(col)
+                  ~~~~~~~~~~~~^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 576, in compile
+    sql, params = vendor_impl(self, self.connection)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\expressions.py", line 29, in as_sqlite
+    sql, params = self.as_sql(compiler, connection, **extra_context)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\aggregates.py", line 209, in as_sql
+    sql, params = super().as_sql(compiler, connection, **extra_context)
+                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\models\expressions.py", line 1102, in as_sql
+    connection.ops.check_expression_support(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\db\backends\sqlite3\operations.py", line 64, in check_expression_support
+    raise NotSupportedError(
+    ...<3 lines>...
+    )
+django.db.utils.NotSupportedError: You cannot use Sum, Avg, StdDev, and Variance aggregations on date/time fields in sqlite3 since date/time is saved as text.
+[INFO] 2026-05-12 15:22:20,904 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:22:21,855 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:23:41,919 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:23:42,727 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:23:46,489 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:23:47,094 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:23:57,137 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:23:57,777 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:23:59,392 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:24:00,058 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:24:02,217 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:24:02,958 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:24:05,180 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:24:05,921 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:24:07,493 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:24:08,142 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:24:18,155 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:24:18,817 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:24:21,486 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:24:22,158 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:24:23,787 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:24:24,449 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:24:26,018 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:24:26,707 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:24:28,311 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:24:28,979 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:24:34,712 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:24:35,376 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:25:10,084 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:25:10,773 django.utils.autoreload: Watching for file changes with StatReloader
+[ERROR] 2026-05-12 15:25:15,031 django.request: Internal Server Error: /statistic/
+Traceback (most recent call last):
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\contrib\auth\mixins.py", line 74, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 145, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 229, in get
+    context = self.get_context_data(**kwargs)
+  File "D:\University\IGI\LR5\apps\statistic\views.py", line 48, in get_context_data
+    if visitor.birth_date:
+       ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Profile' object has no attribute 'birth_date'
+[INFO] 2026-05-12 15:25:34,577 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:25:35,431 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:25:37,035 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:25:37,642 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:25:40,956 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:25:41,783 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:25:44,386 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:25:45,070 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:25:48,399 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:25:49,154 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-12 15:25:54,556 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:25:55,297 django.utils.autoreload: Watching for file changes with StatReloader
+[ERROR] 2026-05-12 15:26:18,904 django.request: Internal Server Error: /statistic/
+Traceback (most recent call last):
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\contrib\auth\mixins.py", line 74, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 145, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\University\IGI\LR5\venv\Lib\site-packages\django\views\generic\base.py", line 229, in get
+    context = self.get_context_data(**kwargs)
+  File "D:\University\IGI\LR5\apps\statistic\views.py", line 177, in get_context_data
+    graphic = base64.b64encode(image_png)
+              ^^^^^^
+NameError: name 'base64' is not defined. Did you forget to import 'base64'?
+[INFO] 2026-05-12 15:27:11,286 django.utils.autoreload: D:\University\IGI\LR5\apps\statistic\views.py changed, reloading.
+[INFO] 2026-05-12 15:27:12,101 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-13 16:11:11,766 django.utils.autoreload: Watching for file changes with StatReloader
+[INFO] 2026-05-13 16:11:26,016 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-13 16:11:26,535 apps.core.views: Загрузка прошла успешно
+[WARNING] 2026-05-13 16:11:26,738 django.request: Not Found: /favicon.ico
+[INFO] 2026-05-13 16:11:54,061 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-13 16:11:54,882 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-13 16:12:16,382 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-13 16:12:17,307 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-13 16:12:34,543 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-13 16:12:35,436 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-13 16:12:43,625 apps.core.views: Загрузка прошла успешно
+[INFO] 2026-05-13 16:12:44,446 apps.core.views: Загрузка прошла успешно

@@ -9,7 +9,7 @@
 <body>
 
     <nav>
-        <p>Текущая дата: {{ current_date|date:"d/m/Y" }}</p>
+        <p>Текущая дата: {{ current_date|date:"d/m/Y H:i" }}, UTC: {{ utc_date|date:"d/m/Y H:i" }}</p>
         <a href="/about/">О компании</a>
         <a href="/animals/">Животные</a>
         <a href="/news/">Новости</a>

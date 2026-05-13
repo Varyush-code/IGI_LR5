@@ -1,4 +1,10 @@
 from statistics import median
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from io import BytesIO
+from datetime import date
+import base64
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Avg, Sum, Count
 from django.views.generic import TemplateView
@@ -35,16 +41,23 @@ class StatisticsView(LoginRequiredMixin, TemplateView):
                 visitors = visitors.order_by(sort)
 
         context['visitors'] = visitors
+
+        today = date.today()
+        ages = []
+
+        for visitor in visitors:
+            if visitor.age:
+                age = (today.year - visitor.age.year)
+                if (today.month, today.day) < (visitor.age.month, visitor.age.day):
+                    age -= 1
+
+                ages.append(age)
+
         context['average_age'] = (
-            visitors.aggregate(
-                avg=Avg('age')
-            )['avg']
+            sum(ages) / len(ages)
+            if ages else 0
         )
-        ages = [
-            visitor.age
-            for visitor in visitors
-            if visitor.age is not None
-        ]
+
         context['median_age'] = (
             median(ages)
             if ages else 0
@@ -56,19 +69,24 @@ class StatisticsView(LoginRequiredMixin, TemplateView):
             animals = animals.filter(
                 name__icontains=search
             )
+
         family = self.request.GET.get('family')
         if family:
             animals = animals.filter(
                 family__icontains=family
             )
+
         arrival_date = self.request.GET.get(
             'arrival_date'
         )
         if arrival_date:
             animals = animals.filter(arrival_date=arrival_date)
+
         context['animals'] = animals
         context['animals_count'] = animals.count()
+
         feedings = Feeding.objects.all()
+
         food_type = self.request.GET.get(
             'food_type'
         )
@@ -76,6 +94,7 @@ class StatisticsView(LoginRequiredMixin, TemplateView):
             feedings = feedings.filter(
                 food__food_type=food_type
             )
+
         context['feedings'] = feedings
         context['food_total'] = (
             feedings.aggregate(
@@ -84,6 +103,7 @@ class StatisticsView(LoginRequiredMixin, TemplateView):
         )
 
         tickets = Ticket.objects.all()
+
         context['tickets_count'] = (
             tickets.count()
         )
@@ -127,14 +147,35 @@ class StatisticsView(LoginRequiredMixin, TemplateView):
             .annotate(total=Sum('amount'))
         )
 
-        context['food_labels'] = json.dumps([
+        labels = [
             item['food__food_type']
             for item in food_stats
-        ])
-
-        context['food_amounts'] = json.dumps([
+        ]
+        amount = [
             item['total']
             for item in food_stats
-        ])
+        ]
+
+        fig, ax = plt.subplots()
+        ax.pie(
+            amount,
+            labels = labels,
+            autopct = '%1.1f%%'
+        )
+        buffer = BytesIO()
+
+        plt.savefig(
+            buffer,
+            format='png'
+        )
+
+        buffer.seek(0)
+        image_png = buffer.getvalue()
+        buffer.close()
+
+        graphic = base64.b64encode(image_png)
+        graphic = graphic.decode('utf-8')
+        context['food_chart'] = graphic
+        plt.close()
 
         return context

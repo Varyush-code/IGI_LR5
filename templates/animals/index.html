@@ -36,7 +36,6 @@
         {% endif %}
 
         {% if user.profile.role == 'admin' %}
-            <a href="{% url 'animals:detail' animal.pk %}">Подробнее</a>
             <a href="{% url 'animals:update' animal.pk %}">Изменить</a>
             <a href="{% url 'animals:delete' animal.pk %}">Удалить</a>
         {% endif %}

@@ -18,7 +18,8 @@ class HomePageView(TemplateView):
             .order_by('-created_at')
             .first()
         )
-        context['current_date'] = timezone.now()
+        context['current_date'] = timezone.localtime()
+        context['utc_date'] = timezone.now()
 
         cat_fact = None
         try:

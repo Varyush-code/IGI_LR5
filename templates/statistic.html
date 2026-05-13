@@ -91,22 +91,10 @@
 
     <h2> Потребление корма</h2>
 
-    <canvas id="foodChart"></canvas>
-
-    <script>
-        const foodCtx = document.getElementById('foodChart');
-        new Chart(foodCtx, {
-            type: 'pie',
-            data: {
-                labels: {{ food_labels|safe }},
-                datasets: [{
-                    label: 'Потребление корма',
-                    data: {{ food_amounts|safe }},
-
-                }]
-            }
-        });
-    </script>
+    <img
+        src="data:image/png;base64,{{ food_chart }}"
+        alt="Food chart"
+    >
 
 </body>
 </html>
