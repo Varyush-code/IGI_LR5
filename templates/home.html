@@ -68,26 +68,5 @@
 
     </nav>
 
-    <h2>Факт о кошках</h2>
-
-    {% if cat_fact %}
-        <p>{{ cat_fact }}</p>
-    {% else %}
-        <p>Факт не загружен</p>
-    {% endif %}
-
-    {% block content %}
-    {% endblock %}
-
-    <hr style="height: 3px; background-color:lightskyblue;">
-    <h2>Шутка дня</h2>
-
-    {% if joke %}
-        <p>{{ joke.setup }}</p>
-        <p>{{ joke.punchline }}</p>
-    {% else %}
-        <p>Факт не загружен</p>
-    {% endif %}
-
 </body>
 </html>

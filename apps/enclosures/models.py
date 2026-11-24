@@ -21,7 +21,7 @@ class Enclosure(models.Model):
         max_length=10,
         choices=TYPE_CHOICES,
         verbose_name='Тип вольера',
-        default=1
+        default='savanna'
     )
 
     capacity = models.IntegerField(

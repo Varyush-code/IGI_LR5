@@ -2,6 +2,7 @@ from django.db import models
 import logging
 from apps.enclosures.models import Enclosure
 from apps.employees.models import Employee
+from django.core.validators import MinValueValidator, MaxValueValidator
 
 class Animal(models.Model):
     GENDER_CHOICES = [
@@ -29,7 +30,11 @@ class Animal(models.Model):
 
     age = models.IntegerField(
         default=0,
-        verbose_name='Возраст'
+        verbose_name='Возраст',
+        validators=[
+            MinValueValidator(0),
+            MaxValueValidator(100)
+        ]
     )
 
     gender = models.CharField(

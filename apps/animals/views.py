@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from apps.animals.models import Animal
 from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect, HttpResponseNotFound
+from django.core.exceptions import ValidationError
+
 
 def index(request):
     animals = Animal.objects.all()
@@ -9,18 +11,31 @@ def index(request):
 
 def create(request):
     if request.method == "POST":
-        animal = Animal()
-        animal.name = request.POST.get("name")
-        animal.species = request.POST.get("species")
-        animal.family = request.POST.get("family")
-        animal.age = request.POST.get("age")
-        animal.gender = request.POST.get("gender")
-        animal.country = request.POST.get("country")
-        animal.description = request.POST.get("description")
+        animal = Animal(
+            name=request.POST.get("name"),
+            species=request.POST.get("species"),
+            family=request.POST.get("family"),
+            age=request.POST.get("age"),
+            gender=request.POST.get("gender"),
+            country=request.POST.get("country"),
+            description=request.POST.get("description", "")
+        )
 
-        animal.save()
-        return redirect("animals:list")
+        try:
+            animal.full_clean()
+            animal.save()
+            return redirect("animals:list")
 
+        except ValidationError as error:
+            return render(
+                request,
+                "animals/create.html",
+                {
+                    "animal": animal,
+                    "errors": error.message_dict
+                },
+                status=400
+            )
     return render(request, "animals/create.html")
 
 def update(request, pk):
@@ -34,7 +49,7 @@ def update(request, pk):
             animal.age = request.POST.get("age")
             animal.gender = request.POST.get("gender")
             animal.country = request.POST.get("country")
-            animal.description = request.POST.get("description")
+            animal.description = request.POST.get("description", "")
 
             animal.save()
             return redirect("animals:list")
